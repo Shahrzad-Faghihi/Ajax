@@ -1,0 +1,17 @@
+
+Country:
+= select_tag "Country", options_from_collection_for_select(@country, "id", "name"), :prompt => "Select a Country", :onchange => "load_city(this.value)"
+#city
+
+#university
+
+
+
+:javascript
+	function load_city(id){
+		$.ajax({
+			url: "/universities/retrieve_cities", 
+			data: {"country_id" :id},
+		});
+	}
+
