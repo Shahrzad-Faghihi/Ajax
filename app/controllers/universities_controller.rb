@@ -1,5 +1,5 @@
 class UniversitiesController < ApplicationController
-	def new
+	def index
 		@country=Country.all
 	end
 

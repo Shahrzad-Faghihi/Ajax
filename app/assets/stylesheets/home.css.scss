@@ -1,3 +1,40 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+body {  
+
+  background: #eee;  
+ 
+  font: 14px, "Lucida Grande", Verdana, sans-serif;  
+
+} 
+
+#page { 
+
+   
+  width: 960px; 
+  text-align: left; 
+  background: #fff;
+
+
+} 
+
+
+
+#main-content { 
+  
+  margin: 50px 24px 60px 24px;
+} 
+
+
+#footer { 
+
+  clear: right; 
+  
+  height: 50px; 
+  background: silver  ;   
+  font-size: 14px;  
+  color: #fff;  
+  padding: 30px 30px 30px 30px;
+
+} 

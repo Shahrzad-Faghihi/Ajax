@@ -1,6 +1,6 @@
 $('#city').html("");
 $('#university').html("");
-$('#city').append("City:");
+$('#city').append("City: ");
 $('#city').append("#{escape_javascript(select_tag "city",options_from_collection_for_select(@cities, "id", "name"), :prompt => "Select a city", :onchange => "retrieve_universities(this.value)")}");
 
 function retrieve_universities(id){

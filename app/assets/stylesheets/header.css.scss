@@ -1,0 +1,51 @@
+// Place all the styles related to the page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.navbar-inverse .navbar-inner {
+  background: -webkit-linear-gradient( bottom, rgb(147, 147, 155), rgb(6, 6, 7) );
+  height: 100px;
+}
+
+.navbar-inverse-collapse .pull-right a {
+	color:white;
+	font-size: 18px;
+	
+}
+
+.navbar-inverse-collapse .pull-right .dropdown-menu a{
+	color:black;
+	margin-top: 0;
+}
+.navbar-inverse-collapse .pull-right .dropdown-menu li{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.navbar-inverse-collapse .pull-right .dropdown-menu li:hover{
+  background-color: gray;
+  font-weight: bold;
+}
+
+.navbar-inverse-collapse .pull-right .dropdown-menu a:hover, 
+.navbar-inverse-collapse .pull-right .dropdown-menu a:focus{
+   color:black;
+}
+
+.nav .dropdown-toggle .caret, 
+.nav .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:focus .caret {
+    border-top-color:white;
+    border-bottom-color: white;
+}
+
+.navbar-inverse .brand {
+    padding-top: 40px;
+    color: white;
+}
+
+.navbar-inverse .pull-right{
+    
+    margin-left: 550px;
+}
+
